@@ -931,7 +931,7 @@ $pesan  = htmlspecialchars($_GET['pesan']  ?? '');
             <div style="background:var(--biru-utama);color:#fff;width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;">
                 <i class="bi bi-graph-up-arrow"></i>
             </div>
-            HIMASATA UNM<span class="brand-dot">.</span>
+            "HIMASATA UNM"<span class="brand-dot">.</span>
         </a>
 
         <!-- Tombol hamburger untuk mobile -->
