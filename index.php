@@ -1,6 +1,6 @@
 <?php
 // ============================================================
-// index.php - Halaman Utama Website HMSD
+// index.php - Halaman Utama Website HIMASATA UNM
 // Himpunan Mahasiswa Sains Data
 // ============================================================
 
@@ -10,12 +10,12 @@
 // Pengurus / Struktural
 $pengurus = [
     [
-        'nama'    => 'Rizky Firmansyah',
+        'nama'    => 'Aiman Rizky',
         'jabatan' => 'Ketua Umum',
         'foto'    => 'https://ui-avatars.com/api/?name=Rizky+Firmansyah&background=1a56db&color=fff&size=150',
     ],
     [
-        'nama'    => 'Aulia Putri Sari',
+        'nama'    => 'Deswita',
         'jabatan' => 'Wakil Ketua',
         'foto'    => 'https://ui-avatars.com/api/?name=Aulia+Putri&background=1a56db&color=fff&size=150',
     ],
@@ -142,21 +142,21 @@ $berita = [
     [
         'judul'   => 'HIMASATA Raih Juara 2 Kompetisi Data Nasional 2024',
         'tanggal' => '12 April 2025',
-        'isi'     => 'Tim HMSD berhasil meraih posisi Runner-Up dalam ajang Data Challenge tingkat nasional yang diikuti oleh lebih dari 50 universitas se-Indonesia.',
+        'isi'     => 'Tim HIMASATA UNM berhasil meraih posisi Runner-Up dalam ajang Data Challenge tingkat nasional yang diikuti oleh lebih dari 50 universitas se-Indonesia.',
         'badge'   => 'Prestasi',
         'warna'   => 'success',
     ],
     [
-        'judul'   => 'Pelantikan Pengurus HMSD Periode 2024/2025',
+        'judul'   => 'Pelantikan Pengurus HIMASATA UNM Periode 2024/2025',
         'tanggal' => '3 April 2025',
-        'isi'     => 'Pelantikan resmi pengurus baru HMSD periode 2024/2025 diselenggarakan di Aula Universitas, dihadiri oleh Dekan Fakultas dan seluruh civitas akademika.',
+        'isi'     => 'Pelantikan resmi pengurus baru HIMASATA UNM periode 2024/2025 diselenggarakan di Aula Universitas, dihadiri oleh Dekan Fakultas dan seluruh civitas akademika.',
         'badge'   => 'Organisasi',
         'warna'   => 'primary',
     ],
     [
-        'judul'   => 'MoU HMSD dengan Komunitas Data Indonesia',
+        'judul'   => 'MoU HIMASATA UNM dengan Komunitas Data Indonesia',
         'tanggal' => '28 Maret 2025',
-        'isi'     => 'HMSD resmi menandatangani nota kesepahaman dengan Komunitas Data Indonesia untuk kolaborasi pelatihan, penelitian, dan peluang magang bagi anggota.',
+        'isi'     => 'HIMASATA UNM resmi menandatangani nota kesepahaman dengan Komunitas Data Indonesia untuk kolaborasi pelatihan, penelitian, dan peluang magang bagi anggota.',
         'badge'   => 'Kerjasama',
         'warna'   => 'info',
     ],
@@ -189,32 +189,32 @@ $humas = [
 $sosmed = [
     [
         'platform' => 'Instagram',
-        'akun'     => '@hmsd.official',
-        'link'     => 'https://instagram.com/hmsd.official',
+        'akun'     => '@HIMASATA UNM.official',
+        'link'     => 'https://instagram.com/HIMASATA UNM.official',
         'ikon'     => 'bi bi-instagram',
         'warna'    => '#E1306C',
         'bg'       => '#fce4ec',
     ],
     [
         'platform' => 'TikTok',
-        'akun'     => '@hmsd.official',
-        'link'     => 'https://tiktok.com/@hmsd.official',
+        'akun'     => '@HIMASATA UNM.official',
+        'link'     => 'https://tiktok.com/@HIMASATA UNM.official',
         'ikon'     => 'bi bi-tiktok',
         'warna'    => '#010101',
         'bg'       => '#f0f0f0',
     ],
     [
         'platform' => 'YouTube',
-        'akun'     => 'HMSD Official',
-        'link'     => 'https://youtube.com/@hmsdofficial',
+        'akun'     => 'HIMASATA UNM Official',
+        'link'     => 'https://youtube.com/@HIMASATA UNMofficial',
         'ikon'     => 'bi bi-youtube',
         'warna'    => '#FF0000',
         'bg'       => '#ffebee',
     ],
     [
         'platform' => 'Email',
-        'akun'     => 'hmsd@university.ac.id',
-        'link'     => 'mailto:hmsd@university.ac.id',
+        'akun'     => 'HIMASATA UNM@university.ac.id',
+        'link'     => 'mailto:HIMASATA UNM@university.ac.id',
         'ikon'     => 'bi bi-envelope-fill',
         'warna'    => '#1a56db',
         'bg'       => '#e8f0fe',
@@ -230,7 +230,7 @@ $pesan  = htmlspecialchars($_GET['pesan']  ?? '');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HMSD – Himpunan Mahasiswa Sains Data</title>
+    <title>HIMASATA UNM – Himpunan Mahasiswa Sains Data</title>
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -501,7 +501,7 @@ $pesan  = htmlspecialchars($_GET['pesan']  ?? '');
         /* ============================================================
            CARD UMUM
         ============================================================ */
-        .card-hmsd {
+        .card-HIMASATA UNM {
             border: 1.5px solid #e8f0fe;
             border-radius: var(--radius-card);
             box-shadow: var(--shadow-card);
@@ -509,7 +509,7 @@ $pesan  = htmlspecialchars($_GET['pesan']  ?? '');
             background: var(--putih);
         }
 
-        .card-hmsd:hover {
+        .card-HIMASATA UNM:hover {
             box-shadow: var(--shadow-hover);
             transform: translateY(-4px);
             border-color: var(--biru-utama);
@@ -931,7 +931,7 @@ $pesan  = htmlspecialchars($_GET['pesan']  ?? '');
             <div style="background:var(--biru-utama);color:#fff;width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:1rem;">
                 <i class="bi bi-graph-up-arrow"></i>
             </div>
-            HMSD<span class="brand-dot">.</span>
+            HIMASATA UNM<span class="brand-dot">.</span>
         </a>
 
         <!-- Tombol hamburger untuk mobile -->
@@ -1239,7 +1239,7 @@ $pesan  = htmlspecialchars($_GET['pesan']  ?? '');
             <p class="section-label"><i class="bi bi-award me-1"></i>Alumni</p>
             <h2 class="section-title">Mereka yang <span>Mengawali dari Sini</span></h2>
             <div class="section-divider"></div>
-            <p class="section-desc">Alumni HMSD kini berkarier di berbagai perusahaan dan instansi bergengsi.</p>
+            <p class="section-desc">Alumni HIMASATA UNM kini berkarier di berbagai perusahaan dan instansi bergengsi.</p>
         </div>
 
         <div class="row g-3">
@@ -1271,7 +1271,7 @@ $pesan  = htmlspecialchars($_GET['pesan']  ?? '');
             <p class="section-label"><i class="bi bi-activity me-1"></i>Kegiatan</p>
             <h2 class="section-title">Kegiatan yang Sedang <span>Berlangsung</span></h2>
             <div class="section-divider"></div>
-            <p class="section-desc">Program aktif yang sedang berjalan di HMSD saat ini.</p>
+            <p class="section-desc">Program aktif yang sedang berjalan di HIMASATA UNM saat ini.</p>
         </div>
 
         <div class="row g-4">
@@ -1315,7 +1315,7 @@ $pesan  = htmlspecialchars($_GET['pesan']  ?? '');
                     <p class="section-label"><i class="bi bi-newspaper me-1"></i>Berita</p>
                     <h2 class="section-title">Berita & <span>Informasi Terkini</span></h2>
                     <div class="section-divider"></div>
-                    <p class="section-desc">Update terbaru seputar kegiatan dan pencapaian HMSD.</p>
+                    <p class="section-desc">Update terbaru seputar kegiatan dan pencapaian HIMASATA UNM.</p>
                 </div>
             </div>
         </div>
@@ -1366,7 +1366,7 @@ $pesan  = htmlspecialchars($_GET['pesan']  ?? '');
                     <div class="nama"><?= htmlspecialchars($h['nama']) ?></div>
                     <div class="peran"><?= htmlspecialchars($h['peran']) ?></div>
                     <!-- Tombol WhatsApp dengan format wa.me -->
-                    <a href="https://wa.me/<?= htmlspecialchars($h['wa']) ?>?text=Halo+HMSD,+saya+ingin+bertanya..." 
+                    <a href="https://wa.me/<?= htmlspecialchars($h['wa']) ?>?text=Halo+HIMASATA UNM,+saya+ingin+bertanya..." 
                        class="btn-wa" target="_blank" rel="noopener">
                         <i class="bi bi-whatsapp"></i>Chat WhatsApp
                     </a>
@@ -1460,7 +1460,7 @@ $pesan  = htmlspecialchars($_GET['pesan']  ?? '');
                 &copy; <?= date('Y') ?> Himpunan Mahasiswa Sains Data. All rights reserved.
             </p>
             <p class="mb-0" style="font-size:0.82rem;">
-                Dibuat dengan <span style="color:#ef4444;">♥</span> oleh Tim HMSD
+                Dibuat dengan <span style="color:#ef4444;">♥</span> oleh Tim HIMASATA UNM
             </p>
         </div>
     </div>
